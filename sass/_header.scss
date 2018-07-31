@@ -28,7 +28,7 @@
   }
 
   &__seenon-text {
-    display: grid;
+    display: grid; //текс внутри - grid элемент
     grid-template-columns: 1fr max-content 1fr;
     grid-column-gap: 1.5rem;
     align-items: center;
@@ -36,7 +36,7 @@
     font-size: 1.6rem;
     color: $color-grey-light-2;
 
-    &::before,
+    &::before, //тоже grid элементы
     &::after {
       content: '';
       display: block;
